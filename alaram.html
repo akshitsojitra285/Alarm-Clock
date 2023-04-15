@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alarm</title>
+    <link rel="stylesheet" href="alarm.css">
+</head>
+<body>
+    <div id="container">
+        <h2>Time</h2>
+        <p id="time">00:00:00:00</p>
+        <h2>Alarm</h2>
+        <div id="timer">
+            <input type="number" name="hour" id="hr" placeholder="Hr" min="1" max="12">
+            <span>Hr</span>
+            <input type="number" name="Minute" id="min" placeholder="Min" min="0" max="59">
+            <span>Min</span>
+            <select name="zone" id="zone">
+                <option value="AM">AM</option>
+                <option value="PM">PM</option>
+            </select>
+        </div>
+        <BUtton id="btn">Set Alarm</BUtton>
+        <ul id="mylist">
+        </ul>
+    </div>
+    <script src="alarm.js"></script>
+</body>
+</html>
