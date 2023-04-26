@@ -7,7 +7,8 @@ setbtn.addEventListener("click",function() {
     let ahour = hour.value;
     let amin = min.value;
     let azone = zone.value;
-    var audio = new Audio('http://cd.textfiles.com/atarilibrary/atari_cd06/SOUND/WAV/WOWO.WAV')
+    // var audio = new Audio('http://cd.textfiles.com/atarilibrary/atari_cd06/SOUND/WAV/WOWO.WAV')
+    var audio = new Audio('clock.mp3')
     
     ahour = ahour<10? "0"+ahour : ahour;
     amin = amin<10? "0"+amin : amin;
