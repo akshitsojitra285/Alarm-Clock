@@ -73,10 +73,10 @@ li:nth-child(odd){
 li:nth-child(even){
     background-color: orangered;
 }
-@media only screen and (max-width:480px){
+@media only screen and (max-width:320px){
     body{
-        height: 600px;
-        width: 480px;
+        height: 480px;
+        width: 320px;
     }
     #container{
     padding: 40px;
