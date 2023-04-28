@@ -62,11 +62,12 @@ function watch() {
         zone = "PM";
         hour -= 12;
     }
-    if (hour == 0) {
-        hour =12;
-    }
     if (hour==12) {
         zone="PM";
+    }
+    if (hour == 0) {
+        hour =12;
+        zone="AM"
     }
     hour = hour<10? "0"+hour : hour;
     min = min<10? "0"+min : min;

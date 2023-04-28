@@ -75,7 +75,7 @@ li:nth-child(even){
 }
 @media only screen and (max-width:480px){
     body{
-        background-image: linear-gradient(to right bottom,rgb(255, 255, 154), rgb(124, 250, 200) , rgb(130, 255, 130));
+        background-image: radial-gradient(rgb(255, 255, 154), rgb(124, 250, 200) , rgb(130, 255, 130));
         width: 480px;
     }
     #container{
