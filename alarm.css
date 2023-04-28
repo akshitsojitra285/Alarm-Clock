@@ -79,7 +79,7 @@ li:nth-child(even){
         width: 100%;
     }
     #container{
-    padding: 40px;
+        padding: 25px;
     }
     button{
         padding: 10px;
